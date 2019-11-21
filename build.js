@@ -24,7 +24,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('k-kuwahara'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
   web: chalk.cyan('https://k-kuwahara.github.io'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@keeth/card  (via GitHub Package Registry)'),
+  npx: chalk.red('npx') + ' ' + chalk.white('keeth (via GitHub Package Registry @k-kuwahara/card)'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
