@@ -1,16 +1,16 @@
 {
-  "name": "@keeth/card",
+  "name": "@k-keeth/card",
   "version": "1.0.0",
-  "description": "A personal card for Kiyohito Keeth Kuwahara (@k-kuwahara)",
+  "description": "A personal card for Kiyohito Keeth Kuwahara (@k-keeth)",
   "main": "/bin/card.js",
   "bin": {
-    "keeth": "./bin/card.js"
+    "k-keeth": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/k-kuwahara/card.git"
+    "url": "git+https://github.com/k-keeth/card.git"
   },
-  "homepage": "https://github.com/k-kuwahara",
+  "homepage": "https://github.com/k-keeth",
   "scripts": {
     "prepublish": "yarn build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Kiyohito Keeth Kuwahara <zensin0082@gmail.com> (https://github.com/k-kuwahara)",
+  "author": "Kiyohito Keeth Kuwahara <zensin0082@gmail.com> (https://github.com/k-keeth)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -38,7 +38,7 @@
     "standard": "^12.0.1"
   },
   "bugs": {
-    "url": "https://github.com/k-kuwahara/card/issues"
+    "url": "https://github.com/k-keeth/card/issues"
   },
   "dependencies": {},
   "publishConfig": {
