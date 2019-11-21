@@ -1,5 +1,5 @@
 {
-  "name": "card",
+  "name": "@k-keeth/card",
   "version": "1.0.0",
   "description": "A personal card for Kiyohito Keeth Kuwahara (@k-keeth)",
   "main": "/bin/card.js",
