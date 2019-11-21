@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/k-kuwahara/card/issues"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com/"
+  }
 }
