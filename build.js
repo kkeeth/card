@@ -15,16 +15,16 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
+  name: chalk.white('               Kiyohito Keeth Kuwahara'),
+  handle: chalk.white('keeth'),
+  work: chalk.white('Web Developer and Servant Leader of Front-end developer teams at Yumemi Inc.'),
+  opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kuwahara_jsri'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~k-kuwahara'),
   github: chalk.gray('https://github.com/') + chalk.green('k-kuwahara'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
-  web: chalk.cyan('https://k-kuwahara.github.com'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@k-kuwahara/card  (via GitHub Package Registry)'),
+  web: chalk.cyan('https://k-kuwahara.github.io'),
+  npx: chalk.red('npx') + ' ' + chalk.white('@keeth/card  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
