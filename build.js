@@ -23,7 +23,7 @@ const data = {
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~k-kuwahara'),
   github: chalk.gray('https://github.com/') + chalk.green('k-keeth'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
-  web: chalk.cyan('https://k-kuwahara.github.io'),
+  web: chalk.cyan('https://k-keeth.github.io'),
   npx: chalk.red('npx') + ' ' + chalk.white('keeth (via GitHub Package Registry @k-keeth/card)'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
