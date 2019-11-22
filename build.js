@@ -20,7 +20,7 @@ const data = {
   work: chalk.white('Web Developer and Servant Leader of Front-end developer teams at Yumemi Inc.'),
   opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kuwahara_jsri'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~k-kuwahara'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~kkeeth'),
   github: chalk.gray('https://github.com/') + chalk.green('kkeeth'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
   web: chalk.cyan('https://kkeeth.github.io'),
