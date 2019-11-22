@@ -1,10 +1,10 @@
 {
-  "name": "@k-keeth/card",
+  "name": "@kkeeth/card",
   "version": "1.0.2",
   "description": "A personal card for Kiyohito Keeth Kuwahara (@k-keeth)",
   "main": "/bin/card.js",
   "bin": {
-    "k-keeth": "./bin/card.js"
+    "kkeeth": "./bin/card.js"
   },
   "repository": {
     "type": "git",
