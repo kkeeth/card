@@ -1,10 +1,10 @@
 {
   "name": "@kkeeth/card",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A personal card for Kiyohito Keeth Kuwahara (@k-keeth)",
   "main": "/bin/card.js",
   "bin": {
-    "kkeeth": "./bin/card.js"
+    "kkeeth": "bin/card.js"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,5 @@
   },
   "bugs": {
     "url": "https://github.com/k-keeth/card/issues"
-  },
-  "dependencies": {}
+  }
 }
