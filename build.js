@@ -34,7 +34,7 @@ const data = {
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelStandfm: chalk.white.bold('    Standfm:'),
-  labelAnchorfm: chalk.white.bold('    Anchorfm:'),
+  labelAnchorfm: chalk.white.bold('   Anchorfm:'),
 }
 
 // Actual strings we're going to output
