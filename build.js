@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('              Kiyohito Keeth Kuwahara'),
   handle: chalk.white('kkeeth'),
-  work: chalk.white('Servant Leader of Front-end developer teams,\n              Member of the Board at Yumemi Inc.'),
+  work: chalk.white('Servant Leader of across each engineering group,\n              Member of the Board at Yumemi Inc.'),
   opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kuwahara_jsri'),
   npm: chalk.gray('https://npmjs.com/') + chalk.redBright('~kkeeth'),
@@ -25,6 +25,7 @@ const data = {
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
   standfm: chalk.gray('https://stand.fm/channels/') + chalk.cyanBright('5e70dd5881d4e84e1ff1cab4'),
   anchorfm: chalk.gray('https://anchor.fm/') + chalk.magentaBright('kkeeth'),
+  zenndev: chalk.gray('https://zenn.dev/') + chalk.cyanBright('kkeeth'),
   npx: chalk.red('npx') + ' ' + chalk.white('@kkeeth/card (via GitHub Package Registry @kkeeth/card)'),
   message: chalk.white.bold('              Please feel free to contact me!'),
   labelWork: chalk.white.bold('       Work:'),
@@ -33,8 +34,9 @@ const data = {
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
-  labelStandfm: chalk.white.bold('    Standfm:'),
-  labelAnchorfm: chalk.white.bold('   Anchorfm:'),
+  labelStandfm: chalk.white.bold('    Stand.fm:'),
+  labelAnchorfm: chalk.white.bold('   Anchor.fm:'),
+  labelZenndev: chalk.white.bold('   Zenn.dev:'),
 }
 
 // Actual strings we're going to output
@@ -46,8 +48,9 @@ const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-const standfming = `${data.labelStandfm}  ${data.standfm}`
-const anchorming = `${data.labelAnchorfm}  ${data.anchorfm}`
+const standfming = `${data.labelStandfm} ${data.standfm}`
+const anchorming = `${data.labelAnchorfm} ${data.anchorfm}`
+const zenning = `${data.labelZenndev}  ${data.zenndev}`
 const messaging = data.message
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -60,7 +63,8 @@ const output = heading + // data.name + data.handle
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                standfming + newline + // data.labelStandfm + data.standfm
-               anchorming + newline + newline + // data.labelAnchorfm + dataanchorfm
+               anchorming + newline + // data.labelAnchorfm + data.anchorfm
+               zenning + newline + newline + // data.labelZenndev + data.zenndev
                messaging // data.message
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
