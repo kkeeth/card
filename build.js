@@ -26,6 +26,7 @@ const data = {
   standfm: chalk.gray('https://stand.fm/channels/') + chalk.cyanBright('5e70dd5881d4e84e1ff1cab4'),
   anchorfm: chalk.gray('https://anchor.fm/') + chalk.magentaBright('kkeeth'),
   zenndev: chalk.gray('https://zenn.dev/') + chalk.cyanBright('kkeeth'),
+  meety: chalk.gray('https://meety.net/matches/') + chalk.magentaBright('RTeAfvEuUeOg'),
   npx: chalk.red('npx') + ' ' + chalk.white('@kkeeth/card (via GitHub Package Registry @kkeeth/card)'),
   message: chalk.white.bold('              Please feel free to contact me!'),
   labelWork: chalk.white.bold('       Work:'),
@@ -34,9 +35,10 @@ const data = {
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
-  labelStandfm: chalk.white.bold('    Stand.fm:'),
-  labelAnchorfm: chalk.white.bold('   Anchor.fm:'),
+  labelStandfm: chalk.white.bold('   Stand.fm:'),
+  labelAnchorfm: chalk.white.bold('  Anchor.fm:'),
   labelZenndev: chalk.white.bold('   Zenn.dev:'),
+  labelMeety: chalk.white.bold('      Meety:')
 }
 
 // Actual strings we're going to output
@@ -48,9 +50,10 @@ const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-const standfming = `${data.labelStandfm} ${data.standfm}`
-const anchorming = `${data.labelAnchorfm} ${data.anchorfm}`
+const standfming = `${data.labelStandfm}  ${data.standfm}`
+const anchorming = `${data.labelAnchorfm}  ${data.anchorfm}`
 const zenning = `${data.labelZenndev}  ${data.zenndev}`
+const meetying = `${data.labelMeety}  ${data.meety}`
 const messaging = data.message
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -64,7 +67,8 @@ const output = heading + // data.name + data.handle
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                standfming + newline + // data.labelStandfm + data.standfm
                anchorming + newline + // data.labelAnchorfm + data.anchorfm
-               zenning + newline + newline + // data.labelZenndev + data.zenndev
+               zenning + newline + // data.labelZenndev + data.zenndev
+               meetying + newline + newline + // data.labelMeety + data.meety
                messaging // data.message
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
