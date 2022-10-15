@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('              Kiyohito Keeth Kuwahara'),
   handle: chalk.white('kkeeth'),
-  work: chalk.white('Servant Leader of across each engineering group,\n              Member of the Board at Yumemi Inc.'),
+  work: chalk.white('Servant Leader of across each engineering group,\n              A Technical Evangelist/ An Operating Officer  at Yumemi Inc.'),
   opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kuwahara_jsri'),
   npm: chalk.gray('https://npmjs.com/') + chalk.redBright('~kkeeth'),
