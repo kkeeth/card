@@ -1,6 +1,6 @@
 {
   "name": "@kkeeth/card",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A personal card for Kiyohito Keeth Kuwahara (@kkeeth)",
   "main": "/bin/card.js",
   "bin": {
