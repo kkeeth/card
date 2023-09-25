@@ -19,7 +19,7 @@ const data = {
   handle: chalk.white('kkeeth'),
   work: chalk.white('Servant Leader of across each engineering group,\n              A Technical Evangelist/ An Operating Officer  at Yumemi Inc.'),
   opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('kuwahara_jsri'),
+  x: chalk.gray('https://x.com/') + chalk.cyan('kuwahara_jsri'),
   npm: chalk.gray('https://npmjs.com/') + chalk.redBright('~kkeeth'),
   github: chalk.gray('https://github.com/') + chalk.green('kkeeth'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
@@ -31,7 +31,7 @@ const data = {
   message: chalk.white.bold('              Please feel free to contact me!'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
-  labelTwitter: chalk.white.bold('    Twitter:'),
+  labelX: chalk.white.bold('          𝕏:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
@@ -46,7 +46,7 @@ const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
 const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
+const xing = `${data.labelX}  ${data.x}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
@@ -61,7 +61,7 @@ const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
                opensourcing + newline + newline + // data.labelOpenSource + data.opensource
-               twittering + newline + // data.labelTwitter + data.twitter
+               xing + newline + // data.labelX + data.x
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
