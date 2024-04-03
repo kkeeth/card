@@ -12,9 +12,9 @@
   },
   "homepage": "https://github.com/kkeeth",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "pnpm build",
     "build": "node build.js",
-    "dev": "yarn build && node ./bin/card.js",
+    "dev": "pnpm build && node ./bin/card.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
