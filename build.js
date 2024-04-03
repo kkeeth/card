@@ -1,10 +1,8 @@
-'use strict'
-
 // Pull in our modules
 const chalk = require('chalk')
 const boxen = require('boxen')
-const fs = require('fs')
-const path = require('path')
+const fs = require('node:fs')
+const path = require('node:path')
 
 // Define options for Boxen
 const options = {
@@ -17,7 +15,7 @@ const options = {
 const data = {
   name: chalk.white('              Kiyohito Keeth Kuwahara'),
   handle: chalk.white('kkeeth'),
-  work: chalk.white('Servant Leader of across each engineering group,\n              A Technical Evangelist/ An Operating Officer  at Yumemi Inc.'),
+  work: chalk.white('A Unit Leader of an Engineering Team at Kaminashi Inc.'),
   opensource: chalk.white('Riot.js Collaborator and Riot.js Japan User Group Organizer ') + chalk.green('⬢'),
   x: chalk.gray('https://x.com/') + chalk.cyan('kuwahara_jsri'),
   npm: chalk.gray('https://npmjs.com/') + chalk.redBright('~kkeeth'),
@@ -27,7 +25,7 @@ const data = {
   art19: chalk.gray('https://art19.com/shows/') + chalk.magentaBright('kkeethengineers'),
   zenndev: chalk.gray('https://zenn.dev/') + chalk.cyanBright('kkeeth'),
   meety: chalk.gray('https://meety.net/matches/') + chalk.magentaBright('RTeAfvEuUeOg'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@kkeeth/card (via GitHub Package Registry @kkeeth/card)'),
+  npx: `${chalk.red('npx')} ${chalk.white('@kkeeth/card (via GitHub Package Registry @kkeeth/card)')}`,
   message: chalk.white.bold('              Please feel free to contact me!'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
