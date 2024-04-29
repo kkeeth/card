@@ -22,7 +22,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('kkeeth'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kiyohito-keeth-kuwahara-611b09a3/'),
   standfm: chalk.gray('https://stand.fm/channels/') + chalk.cyanBright('5e70dd5881d4e84e1ff1cab4'),
-  art19: chalk.gray('https://art19.com/shows/') + chalk.magentaBright('kkeethengineers'),
+  spotify: chalk.gray('https://open.spotify.com/show/') + chalk.magentaBright('4ZqUQtob7eJrz9DQV7lPVd'),
   zenndev: chalk.gray('https://zenn.dev/') + chalk.cyanBright('kkeeth'),
   meety: chalk.gray('https://meety.net/matches/') + chalk.magentaBright('RTeAfvEuUeOg'),
   npx: `${chalk.red('npx')} ${chalk.white('@kkeeth/card (via GitHub Package Registry @kkeeth/card)')}`,
@@ -34,7 +34,7 @@ const data = {
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
   labelStandfm: chalk.white.bold('   Stand.fm:'),
-  labelArt19: chalk.white.bold('      ART19:'),
+  labelArt19: chalk.white.bold('    Spotify:'),
   labelZenndev: chalk.white.bold('   Zenn.dev:'),
   labelMeety: chalk.white.bold('      Meety:')
 }
@@ -49,7 +49,7 @@ const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const standfming = `${data.labelStandfm}  ${data.standfm}`
-const art19ing = `${data.labelArt19}  ${data.art19}`
+const spotifying = `${data.labelArt19}  ${data.spotify}`
 const zenning = `${data.labelZenndev}  ${data.zenndev}`
 const meetying = `${data.labelMeety}  ${data.meety}`
 const messaging = data.message
@@ -64,7 +64,7 @@ const output = heading + // data.name + data.handle
                githubing + newline + // data.labelGitHub + data.github
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                standfming + newline + // data.labelStandfm + data.standfm
-               art19ing + newline + // data.labelArt19 + data.art19
+               spotifying + newline + // data.labelArt19 + data.spotify
                zenning + newline + // data.labelZenndev + data.zenndev
                meetying + newline + newline + // data.labelMeety + data.meety
                messaging // data.message
