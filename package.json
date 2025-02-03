@@ -12,7 +12,6 @@
   },
   "homepage": "https://github.com/kkeeth",
   "scripts": {
-    "prepublish": "pnpm build",
     "build": "node build.js",
     "dev": "pnpm build && node ./bin/card.js",
     "lint": "standard",
